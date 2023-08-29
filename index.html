@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="index.js"></script>
+  <title>Charity Website</title>
+</head>
+
+<body>
+  <div class="fullcontainer banner navbar">
+    <!-- <section id="landing"> -->
+    <nav>
+      <div class="nav_container container">
+        <img class="logo" src="./photos/logo1.png" />
+
+        <ul class="nav_links burger-menu">
+          <li><a href="#bgimage" class="nav_link bar">Our stories</a></li>
+          <li><a href="#joinus" class="nav_link bar">Join Us</a></li>
+          <li><a href="#programSection" class="nav_link bar">Programs</a></li>
+          <li>
+            <a href="#joinSection" class="nav_link nav_link--primary bar">Get involve</a>
+          </li>
+        </ul>
+
+        <buton id="btn" class="btn_menu" onclick="openMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </buton>
+
+        <div class="menu_backdrop">
+          <button class="btn_menu btn_menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu_links">
+            <li class="menu_list"><a href="#" class="menu_link">HOME</a></li>
+            <li class="menu_list"><a href="#" class="menu_link">ABOUT US</a></li>
+            <li class="menu_list"><a href="#" class="menu_link no_cursor">CONTACT US</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- </section> -->
+    <header>
+      <div class="container" id="bgimage">
+        <div class="firstdiv">
+          <h1>Together We Can <br /><span>Save Lives</span></h1>
+          <p>
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quia
+          iste beatae perferendis ratione non accusantium facilis recusandae
+          voluptatem aliquam deserunt voluptatum natus nisi molestiae, -->
+            nesciunt sunt. Asperiores, fugiat ab.
+          </p>
+          <button>star with a little</button>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!--  home section ends here -->
+
+  <section class="fullcontainer">
+    <div class="container joinus" id="joinus">
+      <h2 class="sectionTitle">JOIN US</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas voluptatem quos quibusdam eius. Repellat
+        minima, ea cum tempore eveniet suscipit beatae porro perferendis eaque officia quam omnis est impedit magnam.
+      </p>
+      <div class="cards">
+        <div class="donationBox boxs">
+          <div class="title">Give Donation</div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate, perferendis voluptates rerum provident esse
+            repudiandae odio velit! Lorem ipsum dolor sit amet.
+          </p>
+          <button>Donate Now</button>
+        </div>
+        <!-- Donation Box end -->
+
+        <div class="volunteerBox boxs">
+          <div class="title">Become a volunteer</div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate, perferendis voluptates rerum provident esse
+            repudiandae odio velit! Fugiareef fe repellat cum.
+          </p>
+          <button>Become Now</button>
+        </div>
+        <!-- Donation Box end -->
+
+        <div class="scholarshipBox boxs">
+          <div class="title">Give Scholarship</div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate, perferendis voluptates rerum provident esse
+            repudiandae odio velit! Fugiat fuga repellat cum.
+          </p>
+          <button>Give Now</button>
+        </div>
+        <!-- Donation Box end -->
+      </div>
+    </div>
+  </section>
+  <!-- our stories ends here  -->
+
+  <section class="programs container" id="programSection">
+
+    <div class="container">
+      <h2 class="sectionTitle">Programs</h2>
+      <div class="boxContainer">
+        <div class="box">
+          <div class="cardImage"></div>
+          <div class="programTitle">Education to Every child</div>
+          <button>Donate Now</button>
+        </div>
+
+        <!-- box ends here -->
+
+        <div class="box">
+          <div class="cardImage"></div>
+          <div class="programTitle">Make Life Easier for them</div>
+          <button>Donate Now</button>
+        </div>
+
+        <!-- box ends here -->
+
+        <div class="box">
+          <div class="cardImage"></div>
+          <div class="programTitle">Dedicating to helping Friend</div>
+          <button>Donate Now</button>
+        </div>
+
+        <!-- box ends here -->
+
+        <div class="box">
+          <div class="cardImage"></div>
+          <div class="programTitle">Clean water for people</div>
+          <button>Donate Now</button>
+        </div>
+        <!-- box ends here -->
+      </div>
+      <!-- box container ends here -->
+    </div>
+
+
+  </section>
+
+  <!-- programSection ends here -->
+
+  <section class="join" id="joinSection">
+    <div class="container" id="topsec">
+      <div class="joinTitle">
+        ADOPT A CHILD & <span>SAVE LIVES</span>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <button class="joinNow">JOIN US</button>
+      <button class="adoptBtn">ADOPT A CILD</button>
+    </div>
+  </section>
+  <!-- join section ends here -->
+
+  <!-- footer section -->
+  <footer class="site-footer">
+    <div class="containers">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./photos/logo1.png" alt="Charity Logo">
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <p>Contact Us:</p>
+          <p>Email: info@charity.org</p>
+          <p>Phone: +123 456 7890</p>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
